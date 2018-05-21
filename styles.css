@@ -1,0 +1,114 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size:100%;
+  color: white;
+  background: #eaeaea;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background-color: #33363b;
+}
+
+nav {
+  font-size:14pt;
+  background: #ffffff;
+  padding: 5px 50px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 25px;
+}
+
+ul {
+  font-size: 14pt;
+  line-height: 20pt;
+}
+
+a {
+  border-left: 0.5px #33363b solid;
+  border-right: 0.5px #33363b solid;
+  width:1in;
+  padding:10px;
+  color: #33363b;
+  text-decoration: none;
+  text-align: center;
+  display:inline-block;
+}
+
+a:hover {
+  color: #d9d9d9;
+}
+.page {
+  height: 100%;
+  font-size: 18pt;
+  color:#333;
+}
+
+p {
+  width: 60%;
+  font-size: 12pt;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 15%;
+  padding-right: 15%;
+  line-height: 25px;
+}
+
+#logo {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+#exp {
+  list-style: none;
+  padding-left: 5%;
+}
+
+#contactList {
+  list-style: none;
+  padding-top: 10px;
+  font-size: 14pt;
+  line-height: 25px;
+  padding-left: 15%;
+}
+
+#left {
+  padding-left: 15%;
+  float: left;
+}
+
+#right {
+  padding-right: 15%;
+  float: right;
+}
+
+#work, #contact {
+  background-color: white;
+}
+
+.topLink {
+  display: block;
+  position: absolute;
+  right: 20%;
+  border: none;
+  font-size: 12pt;
+}
+
+.expList {
+  list-style: none;
+}
